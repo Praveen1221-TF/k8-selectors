@@ -12,10 +12,10 @@ spec:
             operator: In
             values:
             - us-east-1a
-          - key: disktype
-            operator: In
-            values:
-            - ssd
+          # - key: disktype
+          #   operator: In
+          #   values:
+          #   - ssd
       preferredDuringSchedulingIgnoredDuringExecution:
       - weight: 100
         preference:
